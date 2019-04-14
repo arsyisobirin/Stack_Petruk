@@ -130,7 +130,7 @@ int main(){
 					if(s.isEmpty()){
 						cout << "Stack Kosong" << endl;
 					}else{
-						cout << "Angka ";s.getTop(); cout << " akan dihapus";
+						cout << "Angka ";s.get_top(); cout << " akan dihapus";
 						cin.get();
 						s.pop_angka();
 					}
